@@ -23,6 +23,8 @@ group :development, :test do
   gem 'pry', '~> 0.11'
   gem 'factory_bot', '~> 4.8'
   gem "factory_bot_rails", "~> 4.0"
+  gem 'coveralls', require: false
+
 end
 
 group :development do
